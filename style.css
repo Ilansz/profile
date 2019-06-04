@@ -1,0 +1,107 @@
+body{
+  background-color: #f6f7eb;
+  font-family: 'Oxygen', sans-serif;
+  color: #393e41;
+  font-size: 20px;
+  line-height: 1.6;
+  /* text-align:center; */
+  background-image: url(images/nice_beach.jpg);
+  background-size :cover;
+}
+.img_circle{
+  border-radius: 50%;
+}
+
+#profile_pic {
+  width: 100px;
+  border-radius: 50%;
+}
+
+h1{
+  font-family: 'Cabin', sans-serif;
+  color: #5c6b73;
+  font-size: 34px;
+  line-height:1.4;
+}
+ h2{
+  font-family: 'Cabin', sans-serif;
+  color: #5c6b73;
+  line-height:1.4;
+  font-size:22px;
+ }
+
+/* ul{
+  color: #637074;
+  text-decoration: wavy overline lime;
+  display:inline-block;
+
+} */
+
+.button{
+  color:#fe5f55;
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.button:hover{
+  background-color: #232ed1;
+}
+
+
+.top_card{
+background-color: white;
+padding: 40px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+border-radius: 4px;
+margin: 35px auto;
+width: 70%;
+text-align: center;
+opacity:0.8;
+}
+
+.list-inline{
+  /* list-style:none; */
+  padding-left:0;
+}
+
+.list-inline li{
+  display: inline-block;
+  margin: 0 15px;
+  width: 20px;
+
+}
+.list-inline li a{
+  color:#637074;
+  opacity: 0.8;
+}
+
+.list-inline li a :hover{
+  color: #232ed1;
+}
+
+.container{
+width: 900px;
+margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
